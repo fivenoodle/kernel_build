@@ -2,8 +2,8 @@ ANYKERNEL_SOURCE=https://github.com/ztc1997/android_kernel_xiaomi_sm6150/tree/ph
 ANYKERNEL_SOURCE_BRANCH=phoenix-r-oss
 KERNEL_SOURCE=https://github.com/ztc1997/android_kernel_xiaomi_sm6150
 KERNEL_SOURCE_BRANCH=phoenix-r-oss
-KERNEL_TARGET=vendor/sm8150-perf
-BUILD_ARGS:CC=clang LD=ld.lld
+KERNEL_TARGET=sm8150-perf
+BUILD_ARGS:CC=clang 
 
 ## AOSP
 
